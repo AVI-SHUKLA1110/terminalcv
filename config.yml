@@ -1,0 +1,201 @@
+## Example Config file
+baseURL: "https://example.com"
+theme: "terminalcv"
+title: "terminalcv"
+
+params:
+  version: "2.0.0"
+  description: "Abhishek Shukla"
+  blog: true
+  prompt:
+    core:
+      text: "thetechnofeak@terminalCV"
+      color: "green"
+      before: "["
+      beforeColor: "red"
+      after: '\]'
+      afterColor: "red"
+      # separator: '-'
+    separator:
+      text: "-"
+      # color:
+    path:
+      before: "["
+      beforeColor: "red"
+      text: "~/terminalcv"
+      color: "blue"
+      after: '\]'
+      afterColor: "red"
+    extra:
+      text: ": "
+      color: "orange"
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  listLS: true
+  #exitLocation: "about:blank"
+  exitMessage: "[Session completed, the browserwindow can be safely closed]"
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  # use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: |
+    ‎ ████████╗███████╗ ██████╗██╗  ██╗███╗   ██╗ ██████╗ ███████╗███████╗ █████╗ ██╗  ██╗
+    ╚══██╔══╝██╔════╝██╔════╝██║  ██║████╗  ██║██╔═══██╗██╔════╝██╔════╝██╔══██╗██║ ██╔╝
+       ██║   █████╗  ██║     ███████║██╔██╗ ██║██║   ██║█████╗  █████╗  ███████║█████╔╝ 
+       ██║   ██╔══╝  ██║     ██╔══██║██║╚██╗██║██║   ██║██╔══╝  ██╔══╝  ██╔══██║██╔═██╗ 
+       ██║   ███████╗╚██████╗██║  ██║██║ ╚████║╚██████╔╝██║     ███████╗██║  ██║██║  ██╗
+       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
+
+    Cybersecurity | Web3
+
+    Welcome to my digital space
+
+    Type 'help' for a list of available commands
+
+  bootsequence: |
+
+  whois:
+    # settings:
+    #   useLess: true
+    details:
+      name: "thetechnofeak"
+      profession: "Security Researcher⚔️"
+      location: "Somewhere"
+      email: "thetechnofeak@gmail.com"
+      homelink: "https://myHomePage.com"
+      description: |
+        Welcome to my small space on the Internet
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+      - name: "github"
+        url: "https://github.com/AVI-SHUKLA1110"
+      - name: "X"
+        url: "https://x.com/thetechnofeak"
+      - name: "gmail"
+        url: "thetechnofeak@gmail.com"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+      - jobTitle: Cybersecurity Analyst
+        color: red
+        company: "Gradient Cyber"
+        location: Texas , USA  (Remote)
+        date: Jan 2024 - Present
+        description: Defensive Network Security
+
+      - jobTitle: Penetration Tester / Security intern
+        color: purple
+        company: "GLBAI"
+        location: Pune , India
+        date: July 2023  - Dec 2023
+        description: Performed penetration testing of the internal network of the company and created report
+
+  education:
+    details:
+      - courseName: Btech - Informnation Technology
+        color: red
+        date: Oct 2020 - July 2024
+        description: Grade - 7.2 CGPA
+
+  skills:
+    settings:
+      useLess: true
+    details:
+      - name: Network Security
+        Description: you can add a description
+
+      - name: Solidity
+        #description: or you can leave it comented
+
+      - name: Incident Response
+        color: blue
+        # percentage: 50
+        description: Skill names can have colors too
+
+  softskills:
+    # settings:
+    #   useLess: true
+    details:
+      - name: SoftSkill 1
+        color: red
+        percentage: 80
+        #description:
+
+      - name: SoftSkill 2
+        #color:
+        percentage: 90
+        description: Description
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+      - name: English
+        color: Blue
+        percentage: 50
+        #description:
+
+
+
+  projects:
+    # settings:
+    #   useLess: true
+    details:
+      - title: Project Red
+        color: red
+        date: since 2019
+        link: https://example.com
+        description: Describing red stuff
+
+      - title: Project Blue
+        color: blue
+        date: since 2016
+        link: https://example.com/blue
+        #description: nothing to describe
+
+      - title: Project Default
+        date: Since 2017
+        link: https://example.com/default
+        #description: not there either
+
+  certifications:
+    # settings:
+    #   useLess: true
+    details:
+      - certName: Example Cert
+        company: Example Certifying Company
+        date: Date of Completion
+        badge: https://www.link.to.badge
+        #description: Lorem Ipsum
+
+  misc:
+    # settings:
+    #   useLess: true
+    commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+      Here the title and the content can have different colors
+      The content can be multi
+
+      line
+
+      And spaces       will be respected as well
+      This section will have the default command: misc
+      but you can name it something else with the property
+      commandName: <String>
+      Give it a shot and try and uncomment the line 
+      commandName: newcommand
+      now instead of misc you can execute the newcommand for this section
+      Auto completion will know it too! :D
+
+    contentColor: orange

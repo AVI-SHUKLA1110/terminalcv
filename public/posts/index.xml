@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on terminalcv</title>
-		<link>http://localhost:1313/posts/</link>
+		<link>https://avi-shukla1110.github.io/terminalcv/posts/</link>
 		<description>Recent content in Posts on terminalcv</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,12 +10,12 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://avi-shukla1110.github.io/terminalcv/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title></title>
-				<link>http://localhost:1313/posts/beginners-guide-to-cybersecurity/</link>
+				<link>https://avi-shukla1110.github.io/terminalcv/posts/beginners-guide-to-cybersecurity/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/beginners-guide-to-cybersecurity/</guid>
+				<guid>https://avi-shukla1110.github.io/terminalcv/posts/beginners-guide-to-cybersecurity/</guid>
 				<description>&lt;h1 id=&#34;how-to-get-into-traditional-cybersecurity-if-youre-just-starting&#34;&gt;🧵How to get into traditional cybersecurity if you’re just starting?&lt;/h1&gt;&#xA;&lt;p&gt;If you’re new here and want a structured cybersec path, here’s what worked for me and other good security engineers I know :&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-1--getting-the-basics&#34;&gt;Step 1 : Getting the basics&lt;/h2&gt;&#xA;&lt;p&gt;👉🏻(If you are new to computer science , i recommend watching this or else directly jump to later parts )&lt;/p&gt;&#xA;&lt;p&gt;CompTIA A+ Certification Course :- &lt;a href=&#34;https://www.youtube.com/watch?v=87t6P5ZHTP0&amp;amp;list=PLG49S3nxzAnnOmvg5UGVenB_qQgsh01uC&#34;&gt;https://www.youtube.com/watch?v=87t6P5ZHTP0&amp;amp;list=PLG49S3nxzAnnOmvg5UGVenB_qQgsh01u&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tryhackme: Beginner Level&#xA;Link - &lt;a href=&#34;https://tryhackme.com/hacktivities&#34;&gt;https://tryhackme.com/hacktivities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Security basics - COMPTIA Security+ Certification course&lt;/p&gt;</description>
 			</item>
 	</channel>

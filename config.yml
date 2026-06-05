@@ -1,5 +1,5 @@
 ## Example Config file
-baseURL: "https://example.com"
+baseURL: "https://avi-shukla1110.github.io/terminalcv/"
 theme: "terminalcv"
 title: "terminalcv"
 
@@ -65,7 +65,7 @@ params:
       profession: "Security Researcher⚔️"
       location: "Somewhere"
       email: "thetechnofeak@gmail.com"
-      homelink: "https://myHomePage.com"
+      homelink: "https://avi-shukla1110.github.io/"
       description: |
         Welcome to my small space on the Internet
 
